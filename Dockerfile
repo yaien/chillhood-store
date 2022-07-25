@@ -2,6 +2,6 @@ FROM node:12.5.0-alpine
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
-RUN npm run build
 COPY ./ ./
+RUN npm run build
 CMD npm start -- --port ${PORT:-8080}
