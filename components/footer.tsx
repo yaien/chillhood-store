@@ -62,7 +62,7 @@ const Footer: FC = () => {
           }
 
           .payment-media img {
-            height: 80px;
+            height: 70px;
           }
 
           @media (min-width: 640px) {
